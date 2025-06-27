@@ -94,7 +94,7 @@ function True3DGalaxy({ filteredStocks, selectedStock, setSelectedStock, showSup
   const [isDragging, setIsDragging] = useState(false);
   const [lastMouse, setLastMouse] = useState({ x: 0, y: 0 });
   const [hoveredStock, setHoveredStock] = useState<any>(null);
-  const animationRef = useRef<number>();
+  const animationRef = useRef<number | undefined>(undefined);
 
   // Auto rotation
   useEffect(() => {
