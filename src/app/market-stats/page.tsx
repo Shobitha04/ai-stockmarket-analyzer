@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
-import { TrendingUp, TrendingDown, Activity, DollarSign } from 'lucide-react';
+import { TrendingUp, TrendingDown, DollarSign } from 'lucide-react';
 
 // Sample market data - replace with real API data
 const marketIndices = [

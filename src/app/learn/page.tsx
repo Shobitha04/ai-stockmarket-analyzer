@@ -3,10 +3,10 @@
 import { useState, useEffect } from 'react';
 import { 
   Book, CheckCircle, ChevronDown, ChevronRight, HelpCircle, Lightbulb, 
-  Search, BookOpen, Calculator, TrendingUp, DollarSign, Target,
+  Search, BookOpen, Calculator, TrendingUp, Target,
   Award, Clock, Users, Globe, Shield, AlertTriangle, BarChart3,
-  PieChart, Activity, Zap, Brain, Library, Video, FileText,
-  Play, Star, Filter, ArrowRight, Download, Share2
+  PieChart, Zap, Brain, Library, Video, FileText,
+  Play, Star, Filter
 } from 'lucide-react';
 
 // A-Z Stock Market Dictionary
