@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import { Search, Zap, Play, Pause } from 'lucide-react';
-import ClientOnly from '@/components/ClientOnly';
+import ClientOnly from '../../components/ClientOnly';
 
 // Stock data with 3D positioning
 const stocksData = [
