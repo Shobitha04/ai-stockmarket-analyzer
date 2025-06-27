@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { RealTimePortfolioTracker } from '@/components/RealTimePortfolioTracker';
 import { ClientOnly } from '@/components/ClientOnly';
-import { Search, Plus, X, TrendingUp, TrendingDown } from 'lucide-react';
+import { Search, Plus, X, TrendingUp, TrendingDown, Minus } from 'lucide-react';
 
 // Sample data - replace with real data from API
 const sectorAllocation = [
