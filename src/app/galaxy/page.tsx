@@ -77,7 +77,7 @@ const generateBackgroundStars = () => {
       x: ((seed1 / 233280) - 0.5) * 800,
       y: ((seed2 / 714025) - 0.5) * 800,
       z: ((seed3 / 624769) - 0.5) * 800,
-      size: Math.random() * 2 + 1,
+      size: ((i * 1327) % 1000) / 1000 * 2 + 1,
     });
   }
   return stars;
@@ -181,7 +181,7 @@ function True3DGalaxy({ filteredStocks, selectedStock, setSelectedStock, showSup
               width: `${star.size}px`,
               height: `${star.size}px`,
               transform: `translate3d(${star.x}px, ${star.y}px, ${star.z}px)`,
-              animation: `twinkle ${2 + Math.random() * 3}s infinite`
+              animation: `twinkle ${2 + (star.id % 3)}s infinite`
             }}
           />
         ))}
